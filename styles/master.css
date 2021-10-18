@@ -1,0 +1,33 @@
+.btn-white:hover {
+    color: #2e354f;
+    background: #999;
+}
+
+
+/* Layout parameters. */
+
+
+header {
+    background: #2e354f;
+    padding: 45px 0;
+    color: #fff;
+}
+
+
+section {
+
+}
+
+
+
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 36px;
+}
+
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+}
