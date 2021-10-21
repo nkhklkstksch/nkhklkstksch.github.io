@@ -43,3 +43,10 @@ small {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 9px;
 }
+
+
+.container {
+    width: 10%;
+    margin: 0 auto;
+    border: 2px magenta;
+}
