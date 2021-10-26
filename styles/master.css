@@ -1,10 +1,17 @@
-.btn-white:hover {
-    color: #2e354f;
-    background: #999;
+/* Parameters for head tags. */
+
+
+head {
+
 }
 
 
-/* Layout parameters. */
+/* Parameters for body tags. */
+
+
+body {
+
+}
 
 
 header {
@@ -15,10 +22,10 @@ header {
 
 
 section {
-
 }
 
 
+/* Parameters for sections. */
 
 
 h1 {
@@ -27,9 +34,27 @@ h1 {
 }
 
 
+h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 24px;
+}
+
+
 h6 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
+}
+
+
+li {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+}
+
+
+ol {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
 }
 
 
@@ -45,8 +70,16 @@ small {
 }
 
 
-.container {
+/* Parameters for classes. */
+
+
+.container_type {
     width: 10%;
     margin: 0 auto;
-    border: 2px magenta;
+    border: 1px magenta;
+}
+
+
+.btn:hover {
+    display: inline-block;
 }

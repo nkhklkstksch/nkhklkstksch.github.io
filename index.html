@@ -1,3 +1,7 @@
+<!-- Test latex on html. Generate non flask version. -->
+<!-- This file must contain the basic template for a static website. -->
+
+
 <!DOCTYPE html>
 
 
@@ -8,13 +12,21 @@
 
 
     <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>Journal.</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style_master.css">
+
+
+    <title>static_journal</title>
+
+
+    <!--
+    <title>{% block title %}{% endblock %}</title>
+-->
 
 
 </head>
@@ -26,24 +38,34 @@
     <nav>
 
 
-        <h6>
-            nkhklkstksch.
-        </h6>
-
-
         <ol>
-            <li>
-                <a href="./templates/montana_gt.html">montana_gt</a>
-            </li>
-            <li>
-                <a href="./templates/kraussi_dubbon.html">kraussi_dubbon</a>
-            </li>
-            <li>
-
-            </li>
-            <li>
-
-            </li>
+            <div class="container_type">
+                <li>
+                    <a href="#">start_here</a>
+                </li>
+                <li>
+                    <a href="#">index_content</a>
+                </li>
+                <li>
+                    <a href="#">about_signature</a>
+                </li>
+                <li>
+                    <a href="#">design_apparel</a>
+                </li>
+                <li>
+                    <a href="#">design_brand</a>
+                </li>
+                <li>
+                    <a href="#">design_what?</a>
+                    <!-- Add self questionaire for people to suggest data to collect, later analize and decide. -->
+                </li>
+                <li>
+                    <a href="#">archive_projects</a>
+                </li>
+                <li>
+                    <a href="#">use_account</a>
+                </li>
+            </div>
         </ol>
 
 
@@ -51,28 +73,23 @@
 
 
     <header>
-        <div class="container">
+        <div class="container_type">
 
 
-            <h1>Home page.</h1>
+            <img src="image_car_accident.jpeg" alt="">
 
 
         </div>
     </header>
 
 
-    <section>
-        <div class="container">
+    <section class="section_dummy">
+        <div class="container_type">
 
 
-            <h6>
-                General description.
-            </h6>
+            <h3>Dummy module.</h3>
             <p>
-                Pilot project,<br>
-                whorus journal,<br>
-                online shop<br>
-                and management system.
+                Dummy content. The example paragraph has x individual characters displayed on a generic card, occupies x percent of the device's screen width, ...
             </p>
 
 
@@ -80,40 +97,66 @@
     </section>
 
 
-    <summary>
+    <section class="section_dummy">
+        <div class="container_type">
 
 
-        Texto.
+            <h3>Dummy module.</h3>
+            <p>
+                Dummy content. The example paragraph has x individual characters displayed on a generic card, occupies x percent of the device's screen width, ...
+            </p>
 
 
-    </summary>
-
-
-    <section>
-
-
+        </div>
     </section>
 
 
-    <small>
+    <section class="section_dummy">
+        <div class="container_type">
 
 
-        LICENSE:<br>
-
-        MIT License<br>
-
-        Copyright (c) 2021 nkhklkstksch<br>
-
-        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use,
-        copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br>
-
-        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br>
-
-        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br>
+            <h3>Dummy module.</h3>
+            <p>
+                Dummy content. The example paragraph has x individual characters displayed on a generic card, occupies x percent of the device's screen width, ...
+            </p>
 
 
-    </small>
+        </div>
+    </section>
+
+
+    <section class="section_dummy">
+        <div class="container_type">
+
+
+            <h3>Dummy module.</h3>
+            <p>
+                Dummy content. The example paragraph has x individual characters displayed on a generic card, occupies x percent of the device's screen width, ...
+            </p>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+
+
+        <small>
+            MIT License<br>
+            Copyright (c) 2021 nkhklkstksch<br>
+        </small>
+
+
+    </footer>
+
+
+    <div class="">
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </div>
 
 
 </body>
