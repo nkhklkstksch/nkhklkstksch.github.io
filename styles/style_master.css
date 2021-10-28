@@ -1,0 +1,85 @@
+/* Parameters for head tags. */
+
+
+head {
+}
+
+
+/* Parameters for body tags. */
+
+
+body {
+}
+
+
+header {
+}
+
+
+footer {
+}
+
+
+section {
+}
+
+
+/* Parameters for sections. */
+
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 36px;
+}
+
+
+h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 24px;
+}
+
+
+h6 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+}
+
+
+li {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+}
+
+
+ol {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+}
+
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+}
+
+
+small {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+}
+
+
+/* Parameters for classes. */
+
+
+.container_type {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px magenta;
+}
+
+
+.button:hover {
+    display: inline-block;
+}
+
