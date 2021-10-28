@@ -5,7 +5,9 @@ head {}
 
 
 /* Parameters for body tags. */
-body {}
+body {
+    background-color: #635147;
+}
 
 footer {}
 
@@ -17,10 +19,28 @@ section {}
 
 }
 
-.section_first,
-.section_second,
-.section_third,
-.section_fourth {}
+
+
+/* Layout. */
+.layout_modules {
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat();
+}
+
+.module_null,
+.module_second,
+.module_third,
+.module_fourth,
+.module_fifth,
+.module_sixth,
+.module_seventh,
+.module_eigth,
+.module_ninth, {
+    background-color: #f5fffa;
+    border-radius: 2rem;
+}
 
 
 
@@ -91,12 +111,11 @@ small {
 }
 
 
+
+
+/* Modules. */
+
 .element_divider {
-    display: grid;
-    gap: 3%;
-    grid-auto-columns: 32%;
-    grid-auto-flow: row;
-    grid-auto-rows: minmax(32%, auto);
     padding: 3%;
 }
 
@@ -106,7 +125,6 @@ small {
     grid-auto-columns: 32%;
     grid-auto-flow: row;
     grid-auto-rows: minmax(32%, auto);
-    padding: 3%;
 }
 
 .element_navigator ul {
