@@ -1,67 +1,101 @@
 /* Parameters for head tags. */
+head {}
 
 
-head {
-}
 
 
 /* Parameters for body tags. */
-
-
 body {
+    background-color: #635147;
+}
+
+footer {}
+
+header {}
+
+section {}
+
+.section_null {
+
 }
 
 
-header {
+
+/* Layout. */
+.layout_modules {
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat();
+}
+
+.module_null,
+.module_second,
+.module_third,
+.module_fourth,
+.module_fifth,
+.module_sixth,
+.module_seventh,
+.module_eigth,
+.module_ninth, {
+    background-color: #f5fffa;
+    border-radius: 2rem;
 }
 
 
-footer {
-}
-
-
-section {
-}
 
 
 /* Parameters for sections. */
+cite {}
 
+code {
+    background-color: #edc9af;
+    border-radius: 1%;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    padding: 0 1%;
+}
+
+div {}
 
 h1 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 36px;
 }
 
-
-h3{
+h3 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 24px;
 }
-
 
 h6 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
 }
 
+img {
+    width: 100%;
+}
 
 li {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
 }
 
+nav {
+    border-bottom: 1px solid #edc9af;
+}
 
 ol {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
 }
 
-
 p {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
 }
-
 
 small {
     font-family: 'IBM Plex Mono', monospace;
@@ -69,17 +103,44 @@ small {
 }
 
 
+
+
 /* Parameters for classes. */
-
-
-.container_type {
-    width: 90%;
-    margin: 0 auto;
-    border: 1px magenta;
-}
-
-
 .button:hover {
     display: inline-block;
 }
 
+
+
+
+/* Modules. */
+
+.element_divider {
+    padding: 3%;
+}
+
+.grid {
+    display: grid;
+    gap: 3%;
+    grid-auto-columns: 32%;
+    grid-auto-flow: row;
+    grid-auto-rows: minmax(32%, auto);
+}
+
+.element_navigator ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.element_list {
+    display: inline-block;
+}
+
+.element_list a::after {
+    content: '>';
+    color: #edc9af;
+    display: inline-block;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 0 3px;
+}
