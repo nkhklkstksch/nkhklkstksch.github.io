@@ -2,7 +2,6 @@
 
 
 head {
-
 }
 
 
@@ -10,14 +9,14 @@ head {
 
 
 body {
-
 }
 
 
 header {
-    background: #2e354f;
-    padding: 45px 0;
-    color: #fff;
+}
+
+
+footer {
 }
 
 
@@ -74,12 +73,13 @@ small {
 
 
 .container_type {
-    width: 10%;
+    width: 90%;
     margin: 0 auto;
     border: 1px magenta;
 }
 
 
-.btn:hover {
+.button:hover {
     display: inline-block;
 }
+
