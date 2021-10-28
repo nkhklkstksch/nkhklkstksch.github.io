@@ -54,6 +54,11 @@ h6 {
 }
 
 
+img {
+    width: 100%;
+}
+
+
 li {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
@@ -87,7 +92,10 @@ small {
 
 
 .element_divider {
-    width: 90%;
+    border: 1% magenta;
+    gap: 3%;
+    grid-template-columns: repeat(3, 96%);
+    grid
     margin: 0 auto;
-    border: 1px magenta;
+    width: 90%;
 }
