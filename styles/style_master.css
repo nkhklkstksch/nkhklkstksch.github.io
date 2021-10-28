@@ -30,6 +30,7 @@ section {}
 }
 
 .module_null,
+.module_first,
 .module_second,
 .module_third,
 .module_fourth,
@@ -37,10 +38,15 @@ section {}
 .module_sixth,
 .module_seventh,
 .module_eigth,
-.module_ninth, {
+.module_ninth,
+
+
+.element_section {
     background-color: #f5fffa;
     border-radius: 2rem;
     padding: 1rem;
+/*  grid-template-columns: 1fr 1fr 1fr;  */
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 }
 
 
