@@ -12,11 +12,11 @@ body {
 }
 
 
-header {
+footer {
 }
 
 
-footer {
+header {
 }
 
 
@@ -25,6 +25,15 @@ section {
 
 
 /* Parameters for sections. */
+
+
+cite {
+}
+
+
+code {
+    background-color: light-grey;
+}
 
 
 h1 {
@@ -72,14 +81,13 @@ small {
 /* Parameters for classes. */
 
 
-.container_type {
-    width: 90%;
-    margin: 0 auto;
-    border: 1px magenta;
-}
-
-
 .button:hover {
     display: inline-block;
 }
 
+
+.element_divider {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px magenta;
+}
