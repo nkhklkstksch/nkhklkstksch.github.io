@@ -1,81 +1,81 @@
 /* Parameters for head tags. */
+head {}
 
 
-head {
-}
 
 
 /* Parameters for body tags. */
+body {}
 
+footer {}
 
-body {
+header {}
+
+section {}
+
+.section_null {
+    
 }
 
-
-footer {
-}
-
-
-header {
-}
+.section_first,
+.section_second,
+.section_third,
+.section_fourth {}
 
 
-section {
-}
 
 
 /* Parameters for sections. */
-
-
-cite {
-}
-
+cite {}
 
 code {
-    background-color: light-grey;
+    background-color: #edc9af;
+    border-radius: 1%;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    padding: 0 1%;
 }
 
+div {}
 
 h1 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 36px;
 }
 
-
-h3{
+h3 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 24px;
 }
-
 
 h6 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
 }
 
-
 img {
     width: 100%;
 }
-
 
 li {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
 }
 
+nav {
+    border-bottom: 1px solid #edc9af;
+}
 
 ol {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
 }
 
-
 p {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
 }
-
 
 small {
     font-family: 'IBM Plex Mono', monospace;
@@ -83,19 +83,41 @@ small {
 }
 
 
+
+
 /* Parameters for classes. */
-
-
 .button:hover {
     display: inline-block;
 }
 
 
 .element_divider {
-    border: 1% magenta;
+    padding: 3%
+}
+
+.grid {
+    display: grid;
     gap: 3%;
-    grid-template-columns: repeat(3, 96%);
-    grid
-    margin: 0 auto;
-    width: 90%;
+    grid-auto-columns: 32%;
+    grid-auto-flow: row;
+    grid-auto-rows: minmax(32%, auto);
+    padding: 3%;
+}
+
+.element_navigator ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.element_list {
+    display: inline-block;
+}
+
+.element_list a::after {
+    content: '>';
+    color: #edc9af;
+    display: inline-block;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 0 3px;
 }
