@@ -106,6 +106,7 @@ ol {
 }
 
 small {
+    color: #d2b48c;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1.5vh;
 }
