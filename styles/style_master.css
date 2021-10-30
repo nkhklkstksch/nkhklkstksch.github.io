@@ -93,7 +93,6 @@ code {
     border-radius: 0.5vh;
     color: black;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 2vh;
     padding: 0 1vh;
 }
 
@@ -144,5 +143,5 @@ img {
 .element_list a::after {
     color: #edc9af;
     display: inline-block;
-    padding: 0 3vh;
+    padding: 3vh;
 }
