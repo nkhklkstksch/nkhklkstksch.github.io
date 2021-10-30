@@ -7,7 +7,7 @@ head {}
 /* Parameters for body tags. */
 
 body {
-    background-color: white;
+    background-color: #121212;
     display: grid;
     grid-gap: 3vh;
     grid-template-columns: repeat(auto-fill, minmax(42vh, 1fr));
@@ -21,7 +21,7 @@ header {}
 
 section {
     align-self: start;
-    background-color: cyan;
+    background-color: #fff5ee;
     border-radius: 3vh;
 }
 
@@ -88,7 +88,7 @@ a {
 cite {}
 
 code {
-    background-color: #edc9af;
+    background-color: #d2b48c;
     border-radius: 0.5vh;
     color: black;
     font-family: 'IBM Plex Mono', monospace;
@@ -140,7 +140,7 @@ img {
 }
 
 .element_list a::after {
-    color: #edc9af;
+    color: #d2b48c;
     display: inline-block;
     padding: 3vh;
 }
