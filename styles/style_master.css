@@ -9,10 +9,10 @@ head {}
 body {
     background-color: white;
     display: grid;
-    grid-gap: 3%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3vh;
+    grid-template-columns: repeat(auto-fill, minmax(45vh, 1fr));
     grid-auto-flow: row;
-    padding: 3%;
+    padding: 3vh;
 }
 
 footer {}
@@ -94,7 +94,7 @@ code {
     color: black;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 2vh;
-    padding: 0 1%;
+    padding: 0 1vh;
 }
 
 li {
@@ -127,8 +127,8 @@ img {
 /* Parameters for classes. */
 
 .element_divider {
-    border-radius: 3%;
-    padding: 3%;
+    border-radius: 3vh;
+    padding: 3vh;
 }
 
 .element_navigator ul {
@@ -138,13 +138,11 @@ img {
 
 .element_list {
     display: inline-block;
-    padding: 1%;
+    padding: 1vh;
 }
 
 .element_list a::after {
     color: #edc9af;
     display: inline-block;
-    font-size: 60%;
-    font-weight: bold;
-    padding: 0 3%;
+    padding: 0 3vh;
 }
