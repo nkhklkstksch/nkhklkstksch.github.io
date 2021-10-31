@@ -123,6 +123,11 @@ button {
     background-color: magenta;
     border-radius: 0;
     padding: 1vh;
+    width: 100%;
+}
+
+button a {
+    color: white;
 }
 
 img {
