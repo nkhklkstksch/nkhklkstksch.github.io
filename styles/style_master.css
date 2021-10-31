@@ -97,12 +97,10 @@ code {
 
 li {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 2vh;
 }
 
 ol {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 2vh;
 }
 
 small {
@@ -111,7 +109,9 @@ small {
     font-size: 1.5vh;
 }
 
-ul {}
+ul {
+    font-family: 'IBM Plex Mono', monospace;
+}
 
 
 
