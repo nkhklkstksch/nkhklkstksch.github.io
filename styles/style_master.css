@@ -89,6 +89,10 @@ p {
 
 /* parameters for stilistic tags */
 
+a {
+    color: #ffffff;
+}
+
 a:hover {
 color: #121212;
 }
@@ -126,6 +130,7 @@ small a {
 
 /* parameters for graphical tags */
 
+/*
 button {
     background-color: #d90075;
     border: none;
@@ -134,10 +139,7 @@ button {
     padding: 1.5vh;
     width: 100%;
 }
-
-button a {
-    color: #ffffff;
-}
+*/
 
 img {
     width: 100%;

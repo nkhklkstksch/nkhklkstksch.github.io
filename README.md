@@ -1,6 +1,4 @@
-### `static_journal.github.io`
-
+### `nkhklkstksch.xyz`
 
 Static web page to publish  
-the signature's journal:  
-**nkhklkstksch.xyz**.
+the signature's journal.
