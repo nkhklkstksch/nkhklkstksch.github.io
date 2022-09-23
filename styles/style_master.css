@@ -94,7 +94,10 @@ a {
 }
 
 a:hover {
-color: #121212;
+    color: #121212;
+}
+::before, ::after {
+    color: #ffffff;
 }
 
 cite {}
@@ -163,8 +166,9 @@ tr {
 
 th {
     font-family: 'Lexend', sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
     font-weight: 600;
+    text-align: start;
 }
 
 td {
