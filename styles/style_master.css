@@ -29,8 +29,8 @@ header {
 }
 
 section {
-    align-self: start;
-    background-color: #ffffff;
+    align-self: flex-start;
+    background-color: #d9b365;
     border-radius: 3vh;
 }
 
@@ -94,7 +94,10 @@ a {
 }
 
 a:hover {
-color: #121212;
+    color: #121212;
+}
+a::before, a::after {
+    color: #ffffff;
 }
 
 cite {}
@@ -163,8 +166,9 @@ tr {
 
 th {
     font-family: 'Lexend', sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
     font-weight: 600;
+    text-align: start;
 }
 
 td {
