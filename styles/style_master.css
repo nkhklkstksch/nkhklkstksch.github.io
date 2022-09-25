@@ -1,9 +1,9 @@
 /*
 communication style manual: color
-inca brown:
-laser green:
-magenta:
-mustard:
+inca brown: #d9b365
+laser green: #99C221
+magenta: #d90075
+mustard: #a76225
 */
 
 
@@ -17,28 +17,32 @@ head {}
 
 body {
     background-color: #121212;
-    columns: 30vh;
-    gap: 3vh;
-    padding: 3vh;
+    columns: 36vh;
+    gap: 3vw;
+    padding: 3vw;
     /*
         display: grid;
-        grid-gap: 3vh;
-        grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+        grid-gap: 3vw;
+        grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
         grid-auto-flow: row;
-        padding: 6vh;
+        padding: 6vw;
     */
 }
 
 header {
     align-self: start;
     background-color: #d9b365;
-    padding: 6vh 3vh 3vh 3vh;
+    padding: 6vw 3vw 3vw 3vw;
 }
 
-section {}
+section {
+    align-self: start;
+    background-color: #a76225;
+    padding: 6vw 3vw 3vw 3vw;
+}
 
 footer {
-    padding: 6vh 3vh 3vh 3vh;
+    padding: 6vw 3vw 3vw 3vw;
 }
 
 div {}
@@ -51,13 +55,14 @@ nav {}
 
 h1 {
     font-family: 'Lexend', sans-serif;
-    font-size: 2vh;
+    font-size: 2vw;
     font-weight: 500;
+    text-align: right;
 }
 
 h2 {
     font-family: 'Lexend', sans-serif;
-    font-size: 6vh;
+    font-size: 6vw;
     font-weight: 700;
 }
 
@@ -71,10 +76,10 @@ h6 {}
 
 p {
     font-family: 'Lexend', sans-serif;
-    font-size: 1.5vh;
-    font-weight: 300;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-block: 0vw;
+    text-align: left;
 }
 
 
@@ -83,7 +88,7 @@ p {
 
 header div a {
     color: #ffffff;
-    padding: 1vh;
+    padding: 1vw;
     text-decoration-line: none;
 }
 
@@ -98,7 +103,7 @@ header div a::before, a::after {
 small a {
     color: #d9b365;
     font-family: 'Red Hat Mono', monospace;
-    font-size: 1.5vh;
+    font-size: 1.5vw;
     font-weight: 0 300;
     text-decoration-line: none;
 }
@@ -131,7 +136,7 @@ button {
     background-color: #d90075;
     border: none;
     height: 100%;
-    padding: 1.5vh;
+    padding: 1.5vw;
     width: 100%;
 }
 */
@@ -139,9 +144,9 @@ button {
 img {
     align-self: flex-start;
     background-color: #d9b365;
-    border-radius: 3vh;
+    border-radius: 3vw;
     width: 100%;
-    margin: 0 0 2vh 0;
+    margin: 0 0 2vw 0;
 }
 
 
@@ -164,9 +169,9 @@ td {}
 /* parameters for classes */
 
 .module {
-    border-radius: 3vh;
+    border-radius: 3vw;
     break-inside: avoid;
-    margin: 0 0 3vh 0;
+    margin: 0 0 3vw 0;
     page-break-inside: avoid;
 }
 
@@ -174,7 +179,7 @@ td {}
     font-family: 'Material Symbols Rounded';
     font-weight: normal;
     font-style: normal;
-    font-size: 4.5vh;
+    font-size: 6vw;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
