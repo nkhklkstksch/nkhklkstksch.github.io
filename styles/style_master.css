@@ -32,7 +32,7 @@ body {
 
 header {
     align-self: start;
-    background-color: #d9b365;
+    background-color: #000000;
     padding: 6vh 3vh 3vh 3vh;
 }
 
@@ -43,6 +43,7 @@ section {
 }
 
 footer {
+    background-color: #000000;
     padding: 6vh 3vh 3vh 3vh;
 }
 
@@ -55,6 +56,7 @@ nav {}
 /* parameters for textual tags */
 
 h1 {
+    color: #d9b365;
     font-family: 'Lexend', sans-serif;
     font-size: 2vh;
     font-weight: 500;
@@ -87,9 +89,27 @@ p {
 
 /* parameters for stilistic tags */
 
+h1 em {
+    color: #a76225;
+/*  font-family: 'Red Hat Mono', monospace;  */
+    font-size: 3vh;
+    font-weight: 800;
+    text-decoration-line: none;
+}
+
+small em {
+    color: #d9b365;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 1.5vh;
+    font-weight: 0 300;
+    text-decoration-line: none;
+}
+
 header div a {
     color: #ffffff;
-    padding: 1vh;
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-size: 6vh;
+    padding: 0.5vh;
     text-decoration-line: none;
 }
 
@@ -180,7 +200,7 @@ td {}
     font-family: 'Material Symbols Rounded';
     font-weight: normal;
     font-style: normal;
-    font-size: 6vh;
+    font-size: 4.5vh;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -192,7 +212,7 @@ td {}
     -webkit-font-smoothing: antialiased;
     font-variation-settings:
     'FILL' 1,
-    'wght' 700,
+    'wght' 600,
     'GRAD' 0,
-    'opsz' 48
+    'opsz' 36
 }
