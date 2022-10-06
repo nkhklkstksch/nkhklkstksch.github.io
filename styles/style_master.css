@@ -1,9 +1,13 @@
 /*
 communication style manual: color
+
 inca brown: #d9b365
 laser green: #99C221
 magenta: #d90075
 mustard: #a76225
+
+el dorado: #f1c700
+metropolis grey: #262227
 */
 
 
@@ -226,6 +230,14 @@ td {}
 /* parameters for classes */
 
 .module {
+    border-radius: 4vh;
+    break-inside: avoid;
+    margin: 0 0 3vh 0;
+    page-break-inside: avoid;
+}
+
+.warning {
+    background-color: #f1c700;
     border-radius: 4vh;
     break-inside: avoid;
     margin: 0 0 3vh 0;
