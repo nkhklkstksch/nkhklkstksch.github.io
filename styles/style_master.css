@@ -36,9 +36,9 @@ header {
     padding: 6vh 3vh 3vh 3vh;
 }
 
-section {
+main {
     align-self: start;
-    background-color: #a76225;
+    background-color: #d9b365;
     padding: 6vh 3vh 3vh 3vh;
 }
 
@@ -61,15 +61,26 @@ h1 {
     font-size: 2vh;
     font-weight: 500;
     text-align: right;
+    padding: 1vh;
 }
 
 h2 {
-    font-family: 'Lexend', sans-serif;
-    font-size: 6vh;
-    font-weight: 700;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 9vh;
+    font-weight: 0 800;
+    margin-block-start: 9vh;
+    margin-block-end: 3vh;
+    padding: 1vh;
 }
 
-h3 {}
+h3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-block-start: 3vh;
+    margin-block-end: 1vh;
+    padding: 1vh;
+}
 
 h4 {}
 
@@ -105,6 +116,23 @@ small em {
     text-decoration-line: none;
 }
 
+a {
+    color: #d9b365;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+a::before, small a::after {
+    color: #ffffff;
+}
+
 div a {
     color: #ffffff;
     font-family: 'Noto Color Emoji', sans-serif;
@@ -138,9 +166,17 @@ small a::before, small a::after {
     color: #ffffff;
 }
 
+code a {
+    color: #121212;
+}
+
 cite {}
 
-code {}
+code {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 1.8vh;
+    font-weight: 0 400;
+}
 
 li {}
 
@@ -165,7 +201,7 @@ button {
 img {
     align-self: flex-start;
     background-color: #d9b365;
-    border-radius: 3vh;
+    border-radius: 4vh;
     width: 100%;
     margin: 0 0 2vh 0;
 }
@@ -190,9 +226,18 @@ td {}
 /* parameters for classes */
 
 .module {
-    border-radius: 3vh;
+    border-radius: 4vh;
     break-inside: avoid;
     margin: 0 0 3vh 0;
+    page-break-inside: avoid;
+}
+
+.element {
+    background-color: #a76225;
+    color: #121212;
+    border-radius: 1vh;
+    break-inside: avoid;
+    padding: 1vh;
     page-break-inside: avoid;
 }
 
