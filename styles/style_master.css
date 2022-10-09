@@ -35,13 +35,11 @@ body {
 }
 
 header {
-    align-self: start;
     background-color: #000000;
     padding: 6vh 3vh 3vh 3vh;
 }
 
 main {
-    align-self: start;
     background-color: #d9b365;
     padding: 6vh 3vh 3vh 3vh;
 }
@@ -243,11 +241,6 @@ td {}
 
 /* parameters for classes */
 
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .module {
     border-radius: 4vh;
     break-inside: avoid;
@@ -257,6 +250,9 @@ td {}
 
 .warning {
     background-color: #f1c700;
+    /* background-image: url("../images/photographic_gallery_00024.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 4vh;
     break-inside: avoid;
     margin: 0 0 3vh 0;
@@ -272,12 +268,17 @@ td {}
     page-break-inside: avoid;
 }
 
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .symbols {
-    width: 9vh;
+    width: 7.5vh;
 }
 
 .headings {
-    width: max-content;
+    width: auto;
 }
 
 .color_symbols {
