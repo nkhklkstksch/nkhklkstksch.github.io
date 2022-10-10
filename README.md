@@ -1,4 +1,9 @@
-### `nkhklkstksch.xyz`
+###  
+### repository
+# `shop_front`
+###### for [`nkhklkstksch.xyz`](https://nkhklkstksch.xyz) website
 
-Static web page to publish  
-the signature's journal.
+```
+static web page to publish  
+the signature's journal
+```
