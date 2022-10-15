@@ -1,9 +1,19 @@
-###  
+###
+
+
+
 ### repository
 # `shop_front`
-###### for [`nkhklkstksch.xyz`](https://nkhklkstksch.xyz) website
+[`nkhklkstksch.xyz`](https://nkhklkstksch.xyz): journal and portfolio
+
+
 
 ```
-static web page to publish  
-the signature's journal
+
+
+⚠️
+
+this website is a mockup,
+it doesn't have an actual use for the time being
+
 ```
