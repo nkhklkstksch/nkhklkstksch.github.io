@@ -10,10 +10,9 @@
 
 ```
 
-
 ⚠️
 
 this website is a mockup,
-it doesn't have an actual use for the time being
-
+it doesn't have
+an actual use for the time being
 ```
