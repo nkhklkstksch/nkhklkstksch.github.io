@@ -40,13 +40,9 @@ header {
 }
 
 main {
-    background-color: #d9b365;
-    padding: 6vh 3vh 3vh 3vh;
 }
 
 footer {
-    background-color: #000000;
-    padding: 6vh 3vh 3vh 3vh;
 }
 
 div {}
@@ -94,8 +90,9 @@ h4 {
 }
 
 h5 {
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
     font-weight: 500;
     margin-block-start: 3vh;
     margin-block-end: 1vh;
@@ -241,11 +238,18 @@ td {}
 
 /* parameters for classes */
 
-.module {
+.assistant {
+    background-color: #000000;
     border-radius: 4vh;
     break-inside: avoid;
-    margin: 0 0 3vh 0;
+    margin: 0 0 9vh 0;
+    padding: 12vh 9vh 6vh 6vh;
     page-break-inside: avoid;
+}
+
+.contact {
+    background-color: #d9b365;
+    padding: 12vh 9vh 6vh 6vh;
 }
 
 .warning {
