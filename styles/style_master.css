@@ -180,7 +180,7 @@ small a::before, small a::after {
 }
 
 code a {
-    color: #121212;
+    color: #d9b365;
 }
 
 cite {}
@@ -264,8 +264,7 @@ td {}
 }
 
 .element {
-    background-color: #a76225;
-    color: #121212;
+    background-color: #121212;
     border-radius: 1vh;
     break-inside: avoid;
     padding: 1vh;
