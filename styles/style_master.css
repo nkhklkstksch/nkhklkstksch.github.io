@@ -63,6 +63,7 @@ h1 {
 }
 
 h2 {
+    color: #ffffff;
     font-family: 'Red Hat Mono', monospace;
     font-size: 9vh;
     font-weight: 0 800;
@@ -72,6 +73,7 @@ h2 {
 }
 
 h3 {
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
     font-size: 7.5vh;
     font-weight: 500;
@@ -81,6 +83,7 @@ h3 {
 }
 
 h4 {
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
     font-size: 4.5vh;
     font-weight: 500;
@@ -92,14 +95,22 @@ h4 {
 h5 {
     color: #ffffff;
     font-family: 'Lexend', sans-serif;
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: 500;
     margin-block-start: 3vh;
     margin-block-end: 1vh;
     padding: 1vh;
 }
 
-h6 {}
+h6 {
+    color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 2vh;
+    font-weight: 400;
+    margin-block-start: 3vh;
+    margin-block-end: 1vh;
+    padding: 1vh;
+}
 
 p {
     font-family: 'Lexend', sans-serif;
@@ -191,7 +202,15 @@ code {
     font-weight: 0 400;
 }
 
-li {}
+li {
+    color: #d9b365;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 1.6vh;
+    font-weight: 300;
+    margin-block-start: 3vh;
+    margin-block-end: 1vh;
+    padding: 1vh;
+}
 
 ol {}
 
