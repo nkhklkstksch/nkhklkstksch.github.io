@@ -34,7 +34,9 @@
 
 
 
-<body>
+<body class="card">
+
+    <div class="dot_grid" id="dot_grid"></div>
 
     <main class="assistant">
 
@@ -43,24 +45,22 @@
             <h1 class="headings">
 
             <em>nkhklkstksch</em><br>
-            signature's <wbr>shop_front<br>
+            contact card<br>
             <br>
 
             </h1>
 
-            <h3 class="symbols">
-                <a href="/" class="color_symbols">👋</a>
-            </h3>
+            <h3 class="symbols">📡</h3>
 
         </section>
 
         <small>
 
-            <em>design signature stablished on october 2022. temporary static rendezvous point for communication.</em><br>
+            <em>design signature stablished in october 2022. <br>temporary static rendezvous point for communication purposes.</em><br>
             <!-- go to deep net service here: ...-->
             <br>
 
-            <h5>click to contact</h5>
+            <h5>contact</h5>
 
             <section class="element">
                 <code>
@@ -82,14 +82,17 @@
 
         </small>
 
-
-
-
-            <!--h3 class="symbols"><a href="/" class="color_symbols">🇬🇧</a></h4><small><em>english</em></small>
-            <h3 class="symbols"><a href="/" class="color_symbols">🇪🇸</a></h4><small><em>español</em></small>
-            <h3 class="symbols"><a href="/" class="color_symbols">🇩🇪</a></h4><small><em>deutsch</em></small-->
-
     </main>
+
+    
+
+    <script>
+        var wrapper = document.getElementById("dot_grid");
+        for (var i = 0; i < 81; i++) {
+            var div = document.createElement("div");
+            wrapper.appendChild(div);
+        }
+    </script>
 
 </body>
 
