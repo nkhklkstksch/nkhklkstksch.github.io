@@ -4,8 +4,10 @@
 
         <header class="collage">
 
-            <button class="mode" onclick="toggle_mode()">🌓</button>
-            <button class="portfolio" onclick="location.href='./Users/nkhklkstksch/Desktop/store_active/repositories/public_portfolio.github.io/portfolio.html'">portfolio</button>
+            <span class="border">
+                <button class="mode" onclick="toggle_mode()">🌓</button>
+                <button class="portfolio" onclick="location.href='./portfolio.html'">portfolio</button>
+            </span>
 
         </header>
 

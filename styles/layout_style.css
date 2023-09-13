@@ -84,9 +84,16 @@ header.collage {
     background-color: var(--color_canvas);
     margin: auto;
     position: relative;
-    border-radius: calc(var(--layout_unit)*1);
+    
     page-break-inside: avoid;
     /*padding: 12vh 9vh 6vh 6vh;*/
+}
+
+span.border {
+    padding: calc(var(--layout_unit)*5) calc(var(--layout_unit)*3) calc(var(--layout_unit)*2) calc(var(--layout_unit)*2);
+    display: flex;
+    justify-content: flex-end;
+    border-radius: calc(var(--layout_unit)*2);
 }
 
 button.mode {
