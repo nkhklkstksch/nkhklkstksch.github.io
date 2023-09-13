@@ -78,12 +78,6 @@ body.board {
     overflow-y: auto;
 }
 
-main.content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
 header.collage {
     width: var(--layout_screen);
     height: calc((var(--layout_screen)/3)*2);
@@ -100,13 +94,19 @@ button.mode {
     padding: 1vh;
     text-decoration-line: none;
     font-family: var(--font_symbol);
-    alig
+    align-self: center;
     background-color: var(--color_button);
     border: none;
     position: relative;
     height: var(--layout_unit);
     padding: 1.5vh;
     width: calc(var(--layout_unit)*3);
+}
+
+main.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 section.canvas {
@@ -119,20 +119,6 @@ section.canvas {
     page-break-inside: avoid;
     /*padding: 12vh 9vh 6vh 6vh;*/
     
-}
-
-span.topic {
-    padding: calc(var(--layout_unit)*5) calc(var(--layout_unit)*3) calc(var(--layout_unit)*2) calc(var(--layout_unit)*2);
-    display: flex;
-    justify-content: flex-end;
-}
-
-section.element {
-    background-color: var(--color_back);
-    border-radius: 1vh;
-    break-inside: avoid;
-    padding: 1vh;
-    page-break-inside: avoid;
 }
 
 span.layout {
@@ -165,6 +151,38 @@ span.layout {
     background: var(--color_annotate);
     border-radius: 50%;
 }
+
+span.topic {
+    padding: calc(var(--layout_unit)*5) calc(var(--layout_unit)*3) calc(var(--layout_unit)*2) calc(var(--layout_unit)*2);
+    display: flex;
+    justify-content: flex-end;
+}
+
+code.platform {
+    background: var(--color_accent);
+    display: inline-block;
+    margin: calc(var(--layout_unit)/2);
+    padding: calc(var(--layout_unit)/2);
+}
+
+
+code {
+    font-family: var(--font_data);
+    font-size: calc(var(--layout_unit)/2);
+    font-weight: 0 400;
+}
+
+
+
+section.element {
+    background-color: var(--color_back);
+    border-radius: 1vh;
+    break-inside: avoid;
+    padding: 1vh;
+    page-break-inside: avoid;
+}
+
+
 
 article {}
 
@@ -321,15 +339,7 @@ small a::before, small a::after {
     color: var(--color_front);
 }
 
-code a {
-    color: var(--color_accent);
-}
 
-code {
-    font-family: var(--font_data);
-    font-size: 1.8vh;
-    font-weight: 0 400;
-}
 
 li {
     color: var(--color_accent);
