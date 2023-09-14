@@ -25,8 +25,8 @@ signature's identity manual
         --color_front: #ffffff;
         --color_back: #000000;
         --color_canvas: #121212;
-        --color_accent: #d9b365;
-        --color_discrete: #a76225;
+        --color_accent: #a76225;
+        --color_discrete: #d9b365;
         --color_annotate: #99C221;
     }
 }
@@ -36,11 +36,9 @@ signature's identity manual
         --color_front: #000000;
         --color_back: #ffffff;
         --color_canvas: #eeeeee;
-        --color_accent: #ffffff;
-        --color_discrete: #d9b365;
+        --color_accent: #d9b365;
+        --color_discrete: #a76225;
         --color_annotate: #d90075;
-        --color_button: #262227;
-        --color_option: #f1c700;
     }
 }
 
@@ -262,7 +260,7 @@ h1.headings {
 
 em.subtitle {
     line-height: calc(var(--layout_unit)*1);
-    color: var(--color_discrete);
+    color: var(--color_back);
     font-family: var(--font_text);
     font-size: calc(var(--layout_unit)*.9);
     font-weight: 500;
