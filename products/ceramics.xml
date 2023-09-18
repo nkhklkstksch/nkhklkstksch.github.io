@@ -3,7 +3,7 @@
         <header class="index">
             <span class="container">
                 <span class="incoming">
-                    <a href="./products.html"><code class="platform nonsymbol">back to products</code></a>
+                    <a href="./products.html"><code class="return nonsymbol">back to products</code></a>
                 </span>
             </span>
         </header>
