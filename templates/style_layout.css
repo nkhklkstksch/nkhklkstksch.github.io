@@ -184,11 +184,10 @@ span.incoming {
     box-sizing: border-box;
     list-style: none;
     width: 100%;
-    padding: 0 calc(var(--layout_unit)*1) 0 calc(var(--layout_unit)*1);
 }
 
 span.space {
-    width: calc(var(--layout_unit)*.5);
+    width: calc(var(--layout_unit));
 }
 
 code.index {
@@ -197,8 +196,8 @@ code.index {
     justify-content: center;
     aspect-ratio: 1/1;
     border-radius: calc(var(--layout_unit));
-    padding: calc(var(--layout_unit)*.5);
-    font-size: calc(var(--layout_unit)*1.5);
+    padding: calc(var(--layout_unit));
+    font-size: calc(var(--layout_unit)*2);
     background-color: var(--color_canvas);
 }
 
@@ -383,7 +382,6 @@ span.outgoing {
     box-sizing: border-box;
     list-style: none;
     width: 100%;
-    padding: 0 calc(var(--layout_unit)*1) 0 calc(var(--layout_unit)*1);
 }
 
 code.data {
