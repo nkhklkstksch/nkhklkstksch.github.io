@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{content_language}" dir="ltr">
+<html lang="{language}" dir="ltr">
 
 
 
@@ -10,7 +10,7 @@
 
 
     <!-- style -->
-    <link rel="stylesheet" href="{content_directory}styles/layout_style.css">
+    <link rel="stylesheet" href="{directory}tools/style_layout.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,13 +28,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 
-    <title>{content_title}</title>
+    <title>{title}</title>
 
 </head>
 
 
+<body class="dark {type}">
 
-{content_body}
+    {body}
+    
+    <!--script>
+        var wrapper = document.getElementById("layout");
+        for (var i = 0; i < 81; i++) {{
+            var span = document.createElement("span");
+            wrapper.appendChild(span);
+        }}
+        function toggle_mode() {{
+            const body = document.body;
+            body.classList.toggle("dark");
+            body.classList.toggle("light");
+        }}
+    </script-->
+
+</body>
 
 
 
