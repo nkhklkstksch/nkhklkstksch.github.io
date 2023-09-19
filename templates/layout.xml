@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="{language}" dir="ltr">
 
 
 
@@ -10,7 +10,7 @@
 
 
     <!-- style -->
-    <link rel="stylesheet" href="https://nkhklkstksch.xyz/templates/style.css">
+    <link rel="stylesheet" href="{directory}templates/style.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,50 +28,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 
-    <title>ceramics</title>
+    <title>{title}</title>
 
 </head>
 
 
-<body class="dark board">
+<body class="dark {type}">
 
-        <main class="content">
-
-        <header class="index">
-            <span class="container">
-                <span class="incoming">
-                    <a href="./products.html"><code class="return nonsymbol">back to products</code></a>
-                </span>
-            </span>
-        </header>
-
-        <section class="bulletin">
-            <span class="container">
-                <span class="overlay">
-                    <span class="title">
-                        <h1 class="contrast">ceramics<br><em class="contrast">product board</em></h1>
-                        <span class="symbols"><h3 class="symbol">🍶</h3></span>
-                    </span>
-                </span>
-                <img class="background" src="./ceramics_000.jpeg" alt="close-up of a ceramic cup on top of a dark wood board">
-            </span>
-        </section>
-
-        <footer class="index"></footer>
-
-    </main>
+    {body}
     
     <!--script>
         var wrapper = document.getElementById("layout");
-        for (var i = 0; i < 81; i++) {
+        for (var i = 0; i < 81; i++) {{
             var span = document.createElement("span");
             wrapper.appendChild(span);
-        }
-        function toggle_mode() {
+        }}
+        function toggle_mode() {{
             const body = document.body;
             body.classList.toggle("dark");
             body.classList.toggle("light");
-        }
+        }}
     </script-->
 
 </body>

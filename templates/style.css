@@ -162,6 +162,8 @@ a:hover .nonsymbol {
 
 
 
+
+
 header.index {
     position: relative;
     display: flex;
@@ -195,9 +197,9 @@ code.index {
     align-items: center;
     justify-content: center;
     aspect-ratio: 1/1;
-    border-radius: calc(var(--layout_unit));
+    border-radius: calc(var(--layout_unit)*1.5);
     padding: calc(var(--layout_unit));
-    font-size: calc(var(--layout_unit)*2);
+    font-size: calc(var(--layout_unit)*3);
     background-color: var(--color_canvas);
 }
 
@@ -205,7 +207,93 @@ code.index {
 
 
 
-body.magazine {}
+
+footer.index {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: var(--layout_screen);
+    margin: auto;
+    padding: calc(var(--layout_unit)*1);
+}
+
+span.outgoing {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    list-style: none;
+    width: 100%;
+}
+
+code.data {
+    display: inline-block;
+    background: var(--color_accent);
+    font-size: calc(var(--layout_unit)*.5);
+    font-weight: 400;
+}
+
+
+
+
+
+
+span.layout {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(var(--grid_divisions), 1fr);
+    grid-template-rows: repeat(var(--grid_divisions), 1fr);
+    page-break-inside: avoid;
+}
+
+.layout span {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.layout span::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - var(--dot_size) / 2);
+    left: calc(50% - var(--dot_size) / 2);
+    width: var(--dot_size);
+    height: var(--dot_size);
+    background: var(--color_annotate);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+body.directory {
+    background-color: var(--color_back);
+    margin: 0;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+body.magazine {
+    background-color: var(--color_back);
+    margin: 0;
+    overflow-y: auto;
+}
 
 article.page {
     width: var(--layout_screen);
@@ -361,67 +449,9 @@ code.return {
 
 
 
-footer.index {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-    box-sizing: border-box;
-    width: var(--layout_screen);
-    margin: auto;
-    padding: calc(var(--layout_unit)*1);
-}
 
-span.outgoing {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-    box-sizing: border-box;
-    list-style: none;
-    width: 100%;
-}
-
-code.data {
-    display: inline-block;
-    background: var(--color_accent);
-    font-size: calc(var(--layout_unit)*.5);
-    font-weight: 400;
-}
-
-
-
-
-
-
-span.layout {
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns: repeat(var(--grid_divisions), 1fr);
-    grid-template-rows: repeat(var(--grid_divisions), 1fr);
-    page-break-inside: avoid;
-}
-
-.layout span {
-    box-sizing: border-box;
-    position: relative;
-}
-
-.layout span::after {
-    content: "";
-    position: absolute;
-    top: calc(50% - var(--dot_size) / 2);
-    left: calc(50% - var(--dot_size) / 2);
-    width: var(--dot_size);
-    height: var(--dot_size);
-    background: var(--color_annotate);
-    border-radius: 50%;
+body.folio {
+    background-color: var(--color_back);
+    margin: 0;
+    overflow-y: auto;
 }

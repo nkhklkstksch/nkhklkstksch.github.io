@@ -13,8 +13,8 @@
                 <span class="canvas">
                     <span class="content">
                         <span class="title">
-                            <h1 class="uniform">products<br><em class="uniform">accesories, kitchenware</em></h1>
-                            <span class="symbols"><h3 class="symbol">📦</h3></span>
+                            <h1 class="uniform">templates<br><em class="uniform">layout styles per page type:</em></h1>
+                            <span class="symbols"><h3 class="symbol">📐</h3></span>
                         </span>
                     </span>
                 </span>
@@ -24,11 +24,14 @@
         <footer class="index">
             <span class="container">
                 <span class="outgoing">
-                    <a href="./ceramics.html"><code class="index symbol">🍶</code></a>
-                    <!--a href="./furniture.html"><code class="index symbol">🪑</code></a-->
-                    <!--a href="./games.html"><code class="index symbol">🧩</code></a-->
+                    <a href="./magazine.html"><code class="index symbol">🗞️</code></a>
+                    <span class="space"></span>
+                    <a href="./board.html"><code class="index symbol">📌</code></a>
                 </span>
             </span>
         </footer>
 
     </main>
+
+
+
