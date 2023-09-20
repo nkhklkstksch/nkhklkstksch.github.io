@@ -434,6 +434,17 @@ code.platform {
     padding: calc(var(--layout_unit)*.75);
 }
 
+code.source {
+    display: inline-block;
+    font-family: var(--font_data);
+    font-size: calc(var(--layout_unit)*.5);
+    font-weight: 400;
+    background: var(--color_back);
+    border-radius: calc(var(--layout_unit)*.5);
+    margin: 0 calc(var(--layout_unit)*.25) 0 0;
+    padding: calc(var(--layout_unit)*.5);
+}
+
 code.return {
     display: inline-block;
     font-family: var(--font_data);

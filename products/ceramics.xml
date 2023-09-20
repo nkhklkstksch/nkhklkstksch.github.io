@@ -10,15 +10,40 @@
 
         <section class="bulletin">
             <span class="container">
-                <span class="overlay">
-                    <span class="title">
-                        <h1 class="contrast">ceramics<br><em class="contrast">product board</em></h1>
-                        <span class="symbols"><h3 class="symbol">🍶</h3></span>
+                <span class="canvas">
+                    <span class="content">
+                        <span class="title">
+                            <h1 class="uniform">f sharp<br><em class="uniform">sonic devices</em></h1>
+                            <span class="symbols"><h3 class="symbol">🎧</h3></span>
+                        </span>
+                        <audio controls><source src="./f_sharp.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                        </audio>
+                        <br><br>
+                        <a href="https://oursounduniverse.com/f-what-is-it-all-about/"><code class="source nonsymbol">f sharp article</code></a>
+                        <br><br>
+                        <a href="https://en.wikipedia.org/wiki/Sympathetic_resonance"><code class="source nonsymbol">sympathetic resonance</code></a>
                     </span>
                 </span>
-                <img class="background" src="./ceramics_000.jpeg" alt="close-up of a ceramic cup on top of a dark wood board">
             </span>
         </section>
+
+        <section class="bulletin">
+            <span class="container">
+                <span class="canvas">
+                    <span class="content">
+                        <span class="title">
+                            <h1 class="uniform">aperiodic tiles<br><em class="uniform">never-repeating patterns</em></h1>
+                            <span class="symbols"><h3 class="symbol">🧩</h3></span>
+                        </span>
+                        <br><br>
+                        <a href="https://www.scientificamerican.com/article/newfound-mathematical-einstein-shape-creates-a-never-repeating-pattern/"><code class="source nonsymbol">einstein tiles article</code></a>
+                    </span>
+                </span>
+            </span>
+        </section>
+
+        
 
         <footer class="index"></footer>
 

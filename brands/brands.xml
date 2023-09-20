@@ -1,0 +1,34 @@
+<main class="content">
+
+    <header class="index">
+        <span class="container">
+            <span class="incoming">
+                <a href="../index.html"><code class="return nonsymbol">back to index</code></a>
+            </span>
+        </span>
+    </header>
+
+    <section class="bulletin">
+        <span class="container">
+            <span class="canvas">
+                <span class="content">
+                    <span class="title">
+                        <h1 class="uniform">brands<br><em class="uniform">graphic identity design</em></h1>
+                        <span class="symbols"><h3 class="symbol">〽️</h3></span>
+                    </span>
+                </span>
+            </span>
+        </span>
+    </section>
+
+    <footer class="index">
+        <span class="container">
+            <span class="outgoing">
+                <a href="./collectivo_lechuza.html"><code class="index symbol">🦉</code></a>
+                <!--a href="./furniture.html"><code class="index symbol">🪑</code></a-->
+                <!--a href="./games.html"><code class="index symbol">🧩</code></a-->
+            </span>
+        </span>
+    </footer>
+
+</main>
