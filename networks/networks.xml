@@ -1,5 +1,35 @@
     <main class="content">
 
-        <code class="copy">http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/booklist/1329684/f7b669</code>
+        <header class="index">
+            <span class="container">
+                <span class="incoming">
+                    <a href="../index.html"><code class="return nonsymbol">back to index</code></a>
+                </span>
+            </span>
+        </header>
+
+        <section class="bulletin">
+            <span class="container">
+                <span class="content">
+                    <span class="header">
+                        <span class="title">
+                            <h1 class="signature">networks</h1>
+                            <h6 class="uniform">system and community</h6>
+                        </span>
+                        <span class="symbols"><h3 class="symbol">🛰️</h3></span>
+                    </span>
+                </span>
+            </span>
+        </section>
+
+        <!--code class="copy">http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/booklist/1329684/f7b669</code-->
+
+        <!--footer class="index">
+            <span class="container">
+                <span class="outgoing">
+                    <a href="./collectivo_lechuza.html"><code class="index symbol">🦉</code></a>
+                </span>
+            </span>
+        </footer-->
 
     </main>

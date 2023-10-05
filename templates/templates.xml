@@ -10,12 +10,13 @@
 
         <section class="bulletin">
             <span class="container">
-                <span class="canvas">
-                    <span class="content">
+                <span class="content">
+                    <span class="header">
                         <span class="title">
-                            <h1 class="uniform">templates<br><em class="uniform">layout styles per page type:</em></h1>
-                            <span class="symbols"><h3 class="symbol">📐</h3></span>
+                            <h1 class="signature">templates</h1>
+                            <h6 class="uniform">visual identity manual</h6>
                         </span>
+                        <span class="symbols"><h3 class="symbol">📐</h3></span>
                     </span>
                 </span>
             </span>

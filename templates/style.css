@@ -6,11 +6,15 @@ signature's identity manual
     --color_black: #000000;
     --color_white: #ffffff;
     --color_magenta: #d90075;
+    --color_feverred: #f65058;
     --color_mustard: #a76225;
     --color_incabrown: #d9b365;
+    --color_marrakech: #99743f;
+    --color_sequoiabrown: #412c13;
     --color_lasergreen: #99C221;
     --color_eldorado: #f1c700;
-    --color_metropolisgrey: #262227;
+    --color_marsorange: #e64715;
+    --color_grey: #202020;
     --color_carbon: #121212;
     --color_cement: #eeeeee;
     --font_text: 'Lexend', sans-serif;
@@ -41,7 +45,7 @@ signature's identity manual
         --color_front: var(--color_white);
         --color_back: var(--color_black);
         --color_canvas: var(--color_carbon);
-        --color_accent: var(--color_mustard);
+        --color_accent: var(--color_marrakech);
         --color_discrete: var(--color_incabrown);
         --color_annotate: var(--color_lasergreen);
     }
@@ -52,7 +56,7 @@ signature's identity manual
         --color_front: var(--color_black);
         --color_back: var(--color_white);
         --color_canvas: var(--color_cement);
-        --color_accent: var(--color_incabrown);
+        --color_accent: var(--color_marrakech);
         --color_discrete: var(--color_mustard);
         --color_annotate: var(--color_magenta);
     }
@@ -106,7 +110,6 @@ span.frame {
 }
 
 a {
-    height: 100%;
     color: var(--color_accent);
     text-decoration-line: none;
 }
@@ -135,11 +138,14 @@ img.picture {
     width: 100%;
 }
 
-span.title {
+span.header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     position: relative;
+}
+
+span.title {
 }
 
 .text {
@@ -186,6 +192,7 @@ span.incoming {
     box-sizing: border-box;
     list-style: none;
     width: 100%;
+    padding: 0 calc(var(--layout_unit)*1) 0 calc(var(--layout_unit)*1);
 }
 
 span.space {
@@ -197,9 +204,9 @@ code.index {
     align-items: center;
     justify-content: center;
     aspect-ratio: 1/1;
-    border-radius: calc(var(--layout_unit)*1.5);
+    border-radius: 33%;
     padding: calc(var(--layout_unit));
-    font-size: calc(var(--layout_unit)*3);
+    font-size: calc(var(--layout_unit)*1.5);
     background-color: var(--color_canvas);
 }
 
@@ -330,11 +337,42 @@ section.bulletin {
     page-break-inside: avoid;
 }
 
-h1.uniform {
+h1.signature {
+    align-items: baseline;
     text-align: right;
     line-height: calc(var(--layout_unit)*1.25);
     width: auto;
-    color: var(--color_back);
+    color: var(--color_marsorange);
+    font-size: calc(var(--layout_unit)*2);
+    font-family: var(--font_text);
+    font-weight: 800;
+    font-style: italic;
+    text-decoration-line: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1.header {
+    align-items: baseline;
+    text-align: right;
+    line-height: calc(var(--layout_unit)*1.25);
+    width: auto;
+    color: var(--color_marrakech);
+    font-size: calc(var(--layout_unit)*2);
+    font-family: var(--font_text);
+    font-weight: 800;
+    font-style: italic;
+    text-decoration-line: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1.uniform {
+    align-items: baseline;
+    text-align: right;
+    line-height: calc(var(--layout_unit)*1.25);
+    width: auto;
+    color: var(--color_canvas);
     font-size: calc(var(--layout_unit)*2);
     font-family: var(--font_text);
     font-weight: 800;
@@ -345,6 +383,35 @@ h1.uniform {
 }
 
 h1.contrast {
+    align-items: baseline;
+    text-align: right;
+    line-height: calc(var(--layout_unit)*1.25);
+    width: auto;
+    color: var(--color_canvas);
+    font-size: calc(var(--layout_unit)*2);
+    font-family: var(--font_text);
+    font-weight: 800;
+    font-style: italic;
+    text-decoration-line: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2.uniform {
+    text-align: right;
+    line-height: calc(var(--layout_unit)*1.25);
+    width: auto;
+    color: var(--color_back);
+    font-size: calc(var(--layout_unit)*2);
+    font-family: var(--font_text);
+    font-weight: 800;
+    font-style: italic;
+    text-decoration-line: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2.contrast {
     text-align: right;
     line-height: calc(var(--layout_unit)*1.25);
     width: auto;
@@ -358,8 +425,7 @@ h1.contrast {
     margin-block-end: 0;
 }
 
-em.uniform {
-    line-height: calc(var(--layout_unit)*1);
+h6.uniform {
     color: var(--color_front);
     font-family: var(--font_text);
     font-size: calc(var(--layout_unit)*.9);
@@ -367,9 +433,11 @@ em.uniform {
     font-style: normal;
     text-align: right;
     padding: 0;
+    margin-block-start: calc(var(--layout_unit)*.25);
+    margin-block-end: 0%;
 }
 
-em.contrast {
+h6.contrast {
     line-height: calc(var(--layout_unit)*1);
     color: var(--color_back);
     font-family: var(--font_text);
@@ -378,6 +446,8 @@ em.contrast {
     font-style: normal;
     text-align: right;
     padding: 0;
+    margin-block-start: calc(var(--layout_unit)*.25);
+    margin-block-end: 0%;
 }
 
 span.symbols {
@@ -390,6 +460,18 @@ span.symbols {
 }
 
 h3.symbol {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    line-height: calc(var(--layout_unit)*3.5);
+    font-size: calc(var(--layout_unit)*3.5);
+    color: var(--color_accent);
+    text-decoration-line: none;
+    margin: auto;
+    
+}
+
+h6.symbol {
     display: flex;
     align-items: center;
     height: 100%;
@@ -419,25 +501,21 @@ p.data {
 
 span.element {
     display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+    justify-content: flex-end;
 }
 
 code.platform {
     display: inline-block;
     font-family: var(--font_data);
-    font-size: calc(var(--layout_unit)*.5);
+    font-size: calc(var(--layout_unit)*.6);
     font-weight: 400;
     background: var(--color_back);
-    border-radius: calc(var(--layout_unit)*.5);
-    margin: 0 calc(var(--layout_unit)*.25) 0 0;
-    padding: calc(var(--layout_unit)*.75);
 }
 
 code.source {
     display: inline-block;
     font-family: var(--font_data);
-    font-size: calc(var(--layout_unit)*.5);
+    font-size: calc(var(--layout_unit)*.6);
     font-weight: 400;
     background: var(--color_back);
     border-radius: calc(var(--layout_unit)*.5);
@@ -448,7 +526,7 @@ code.source {
 code.return {
     display: inline-block;
     font-family: var(--font_data);
-    font-size: calc(var(--layout_unit)*.5);
+    font-size: calc(var(--layout_unit)*.6);
     font-weight: 400;
     background: var(--color_back);
     border-radius: calc(var(--layout_unit)*.5);
