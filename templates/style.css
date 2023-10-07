@@ -372,7 +372,7 @@ h1.uniform {
     text-align: right;
     line-height: calc(var(--layout_unit)*1.25);
     width: auto;
-    color: var(--color_canvas);
+    color: var(--color_back);
     font-size: calc(var(--layout_unit)*2);
     font-family: var(--font_text);
     font-weight: 800;
@@ -387,7 +387,7 @@ h1.contrast {
     text-align: right;
     line-height: calc(var(--layout_unit)*1.25);
     width: auto;
-    color: var(--color_canvas);
+    color: var(--color_front);
     font-size: calc(var(--layout_unit)*2);
     font-family: var(--font_text);
     font-weight: 800;
@@ -402,10 +402,10 @@ h2.uniform {
     line-height: calc(var(--layout_unit)*1.25);
     width: auto;
     color: var(--color_back);
-    font-size: calc(var(--layout_unit)*2);
+    font-size: calc(var(--layout_unit)*1.5);
     font-family: var(--font_text);
     font-weight: 800;
-    font-style: italic;
+    font-style: normal;
     text-decoration-line: none;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -416,10 +416,10 @@ h2.contrast {
     line-height: calc(var(--layout_unit)*1.25);
     width: auto;
     color: var(--color_front);
-    font-size: calc(var(--layout_unit)*2);
+    font-size: calc(var(--layout_unit)*1.5);
     font-family: var(--font_text);
     font-weight: 800;
-    font-style: italic;
+    font-style: normal;
     text-decoration-line: none;
     margin-block-start: 0;
     margin-block-end: 0;
