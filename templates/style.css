@@ -367,6 +367,21 @@ h1.header {
     margin-block-end: 0;
 }
 
+h1.overlay {
+    align-items: baseline;
+    text-align: right;
+    line-height: calc(var(--layout_unit)*1.25);
+    width: auto;
+    color: var(--color_marrakech);
+    font-size: calc(var(--layout_unit)*2);
+    font-family: var(--font_text);
+    font-weight: 800;
+    font-style: italic;
+    text-decoration-line: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 h1.uniform {
     align-items: baseline;
     text-align: right;
@@ -425,6 +440,18 @@ h2.contrast {
     margin-block-end: 0;
 }
 
+h6.overlay {
+    color: var(--color_white);
+    font-family: var(--font_text);
+    font-size: calc(var(--layout_unit)*.9);
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+    padding: 0;
+    margin-block-start: calc(var(--layout_unit)*.25);
+    margin-block-end: 0%;
+}
+
 h6.uniform {
     color: var(--color_front);
     font-family: var(--font_text);
@@ -460,18 +487,6 @@ span.symbols {
 }
 
 h3.symbol {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    line-height: calc(var(--layout_unit)*3.5);
-    font-size: calc(var(--layout_unit)*3.5);
-    color: var(--color_accent);
-    text-decoration-line: none;
-    margin: auto;
-    
-}
-
-h6.symbol {
     display: flex;
     align-items: center;
     height: 100%;
