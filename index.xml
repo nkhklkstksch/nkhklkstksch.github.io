@@ -42,4 +42,8 @@
             </span>
         </footer>
 
+        <!-- 
+            add access to 3 computers with docker container running 1 core node each
+        -->
+
     </main>
