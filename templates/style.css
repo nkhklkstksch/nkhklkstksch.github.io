@@ -456,7 +456,7 @@ h2.contrast {
 
 h5.uniform {
     text-align: left;
-    line-height: calc(var(--layout_unit)*1.25);
+    line-height: calc(var(--layout_unit)*1);
     width: auto;
     color: var(--color_back);
     font-size: calc(var(--layout_unit)*.9);
@@ -470,7 +470,7 @@ h5.uniform {
 
 h5.contrast {
     text-align: left;
-    line-height: calc(var(--layout_unit)*1.25);
+    line-height: calc(var(--layout_unit)*1);
     width: auto;
     color: var(--color_front);
     font-size: calc(var(--layout_unit)*.9);
