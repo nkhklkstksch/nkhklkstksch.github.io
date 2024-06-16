@@ -1,0 +1,34 @@
+<main class="content">
+
+        <header class="index">
+            <span class="container">
+                <span class="incoming">
+                    <a href="./templates.html"><code class="return nonsymbol">back to templates</code></a>
+                </span>
+            </span>
+        </header>
+
+        <section class="bulletin">
+            <span class="container">
+                <span class="content">
+                    <span class="header">
+                        <span class="title">
+                            <h1 class="signature">magazine</h1>
+                            <h6 class="uniform">periodic project articles</h6>
+                        </span>
+                        <span class="symbols"><h3 class="symbol">🗞️</h3></span>
+                    </span>
+                </span>
+            </span>
+        </section>
+
+    <section class="frontcover">
+
+        <!--flexible frame (square picture)
+        flexible information-->
+
+    </section>
+    
+    <section class="backcover"></section>
+
+</main>

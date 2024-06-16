@@ -1,0 +1,36 @@
+    <main class="content">
+
+        <header class="index">
+            <span class="container">
+                <span class="incoming">
+                    <a href="../index.html"><code class="return nonsymbol">back to index</code></a>
+                </span>
+            </span>
+        </header>
+
+        <section class="bulletin">
+            <span class="container">
+                <span class="content">
+                    <span class="header">
+                        <span class="title">
+                            <h1 class="signature">templates</h1>
+                            <h6 class="uniform">visual identity manual</h6>
+                        </span>
+                        <span class="symbols"><h3 class="symbol">📐</h3></span>
+                    </span>
+                </span>
+            </span>
+        </section>
+
+        <footer class="index">
+            <span class="container">
+                <span class="outgoing">
+                    <a href="./magazine.html"><code class="index symbol">🗞️</code></a>
+                    <span class="space"></span>
+                    <a href="./board.html"><code class="index symbol">📌</code></a>
+                </span>
+            </span>
+        </footer>
+
+    </main>
+

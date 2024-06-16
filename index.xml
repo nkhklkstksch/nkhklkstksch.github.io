@@ -3,23 +3,46 @@
         <section class="bulletin">
             <span class="container">
                 <img class="picture" src="./index.png" alt="mouse drawn with markers">
+            </span>
+        </section>
+
+        <!--section class="bulletin">
+            <span class="container">
                 <span class="content">
                     <span class="header">
-                        <span class="symbols"><h3 class="symbol">🌊</h3></span>
-                    </span>
-                    <br><br><br><br>
-                    <!--span class="header">
                         <span class="title">
-                            <h1 class="signature">nkhklkstksch<br></h1>
-                            <h6 class="uniform">design signature<br><br></h6>
+                            <h1 class="signature">nkhklkstksch</h1>
+                            <h6 class="uniform">taller de técnica y plástica</h6>
                         </span>
-                        <span class="symbols"><h3 class="symbol"></h3></span>
-                    </span-->
+                        <span class="symbols"><h3 class="symbol">📦</h3></span>
+                    </span>
+                </span>
+            </span>
+        </section-->
+
+        <section class="bulletin">
+            <span class="container">
+                <span class="canvas">
+                    <span class="content">
+                        <span class="header">
+                            <span class="title">
+                                <h1 class="uniform">nkhklkstksch</h1>
+                                <h6 class="uniform">Taller de Técnica y Plástica</h6>
+                            </span>
+                            <span class="symbols"><h3 class="symbol">📦</h3></span>
+                        </span>
+                        <h5 class="contrast">Graphic <br> and product <br> design portfolio:<br><br></h5>
+                        <span class="button">
+                            <a href="./resources/documents/portfolio.pdf" download="portfolio.pdf">download portfolio.pdf</a>
+                        </span>
+                    </span>
                 </span>
             </span>
         </section>
 
-        <footer class="index">
+        <footer class="index"></footer>
+
+        <!--footer class="index">
             <span class="container">
                 <span class="outgoing">
                     <a href="./estates/estates.html"><code class="index symbol">🏕</code></a>
@@ -35,7 +58,7 @@
                     <a href="./templates/templates.html"><code class="index symbol">📐</code></a>
                 </span>
             </span>
-        </footer>
+        </footer-->
 
         <!-- 
             add access to 3 computers with docker container running 1 core node each
