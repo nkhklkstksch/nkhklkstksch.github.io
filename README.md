@@ -2,8 +2,8 @@
 
 
 
-⚠️ testing until october 2023
+⚠️ october 2024 to october 2027
 
 ```
 
-# Signature's public portfolio.
+# Poonyik store.
